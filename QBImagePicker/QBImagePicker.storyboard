@@ -109,6 +109,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="doneButton" destination="laG-jk-Ma2" id="CV6-AR-B90"/>
                     </connections>
@@ -261,6 +262,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="doneButton" destination="nai-ZV-lR8" id="lxY-18-MpF"/>
                     </connections>
@@ -274,7 +276,8 @@
             <objects>
                 <navigationController storyboardIdentifier="QBAlbumsNavigationController" id="8Dq-FL-Kai" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Whc-Ry-EBq">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Whc-Ry-EBq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
